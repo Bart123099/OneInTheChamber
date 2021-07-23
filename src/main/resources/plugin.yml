@@ -1,0 +1,12 @@
+name: OneInTheChamber
+version: ${project.version}
+main: nl.bart123099.oneinthechamber.OneInTheChamber
+api-version: 1.17
+authors: [ Bart123099 ]
+description: De one in the chamber minigame gemaakt tijdens de devbootcamp van DDG
+
+commands:
+  addspawnlocation:
+    description: voeg een spawn locatie toe
+    usage: /addspawnlocation <naam>
+
