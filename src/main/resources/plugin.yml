@@ -9,4 +9,7 @@ commands:
   addspawnlocation:
     description: voeg een spawn locatie toe
     usage: /addspawnlocation <naam>
+  removespawnlocation:
+    description: verwijder een spawn locatie
+    usage: /removespawnlocatie <naam>
 

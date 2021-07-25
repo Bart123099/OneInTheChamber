@@ -21,7 +21,7 @@ public class PlayerDamageEvent implements Listener {
     }
 
     @EventHandler
-    public void onPlayerHitPlayeEvent(EntityDamageByEntityEvent event) {
+    public void onPlayerHitPlayerEvent(EntityDamageByEntityEvent event) {
         event.setCancelled(true);
     }
 }
